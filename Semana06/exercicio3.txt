@@ -1,0 +1,10 @@
+a)
+O limite de dados a serem enviados por pacotes TCP e UDP varia dependendo de diversos fatores, como o tamanho máximo do pacote permitido pela camada de rede subjacente e as configurações dos sistemas operacionais e aplicativos envolvidos. No entanto, existem algumas considerações gerais:
+o tamanho máximo de dados a serem enviados por pacotes TCP e UDP é determinado principalmente pela MTU da rede subjacente, e ambos os protocolos têm limites práticos devido aos cabeçalhos adicionados em cada camada do modelo OSI. Os desenvolvedores geralmente devem considerar esses limites ao projetar aplicativos que utilizam TCP ou UDP para comunicação em rede.
+
+b)
+Existem diversos metodos para realizar essa acao, porem o mais comum e a divisao em partes menores onde o arquivo e divido em partes pequenas e enviados separadamente, onde posteriormente serao juntados novamente
+
+c)
+Ao transmitir um arquivo grande pela Internet, as implementações TCP e UDP diferem principalmente em termos de confiabilidade, controle de congestionamento e ordem de entrega dos dados.Portanto, ao transmitir um arquivo grande pela Internet, se a integridade e a ordem dos dados forem críticas, o TCP seria a escolha mais adequada devido à sua confiabilidade e controle de congestionamento. No entanto, se a velocidade for mais importante e perdas de dados não forem um problema, o UDP poderia ser considerado para uma transferência mais rápida e eficiente.
+ 
